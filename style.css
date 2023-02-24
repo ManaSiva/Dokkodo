@@ -1,0 +1,10 @@
+body{
+    background-color: #18191a;
+}
+
+.box{
+    background-color: #242526;
+    aspect-ratio: 1/1.6;
+    width:14rem;
+    border-radius: 0.5rem;
+}
