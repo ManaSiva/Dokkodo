@@ -9,14 +9,26 @@
 
 
 body{
-    background-color: var(--ten-black);
+    background-color: var(--ten-white);
 }
+.dark-mode {
+    background-color: var(--ten-black);
+    color: rgb(56, 56, 56);
+}
+
+label {
+    border-radius: 34px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
 
 .switch {
     position: relative;
     display: inline-block;
     width: 60px;
     height: 34px;
+    text-shadow: 1rem red;
+
   }
   
   .switch input {
@@ -55,16 +67,14 @@ body{
   
   input:checked + .slider:before {
     background-color: var(--ten-white);
-
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
   }
-  input:checked + .slider{
-    border-color: var(--one-white);
-  }
   
 
+  
+  
 .box{
     background-color:var(--nine-black);
     aspect-ratio: 1/1.6;
